@@ -1,6 +1,4 @@
 cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
-github.com/0zAND1z/ipldcrud v0.0.2 h1:AHSAxT4UjqUIOx28tcl3AcchRF5/0JKt2YT/vParjqI=
-github.com/0zAND1z/ipldcrud v0.0.2/go.mod h1:p4fZbEBuRXqviRWmVyrVrRDRtUpwkIBxiJKY+AlEgJ0=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/DATA-DOG/go-txdb v0.1.3/go.mod h1:DhAhxMXZpUJVGnT+p9IbzJoRKvlArO2pkHjnGX7o0n0=
 github.com/PuerkitoBio/purell v1.1.1 h1:WEQqlqaGbrPkxLJWfBwQmfEAE1Z7ONdDLqrN38tNFfI=

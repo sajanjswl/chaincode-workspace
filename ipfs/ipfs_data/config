@@ -126,8 +126,8 @@
     "Writable": false
   },
   "Identity": {
-    "PeerID": "12D3KooWBCCeuymn4YNPwnVxv6veZvBa31QxEt7UVpMz6LaMjHtr",
-    "PrivKey": "CAESQLWLBJIzu2iicUa5KBd2wUCmCbb7ZGQP/7f41ZeLEOFQFHO09JSqtYUf2Yu8zHMnV3x/SHt2kgulSqMUhn11D68="
+    "PeerID": "12D3KooWD4FMAgxmN1B8WD7SxegQZfALyRqQzVAScfs5UE8tkao7",
+    "PrivKey": "CAESQJzwAFibpglxZlYYtjRFDvFFvOqyYQYhrVGlEXjo4ddQMCF6+nauqJqdzY/OZ+wdJop/L5bowg1Ela1PGrHTdx4="
   },
   "Ipns": {
     "RecordLifetime": "",
