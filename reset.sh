@@ -5,3 +5,5 @@ rm sampleconfig/genesisblock
 
 
 rm -r /Users/sajanjswl/sandbox/hyperledger
+
+docker-compose -f ./ipfs/docker-compose.yaml down --volumes

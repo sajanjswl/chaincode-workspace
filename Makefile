@@ -34,14 +34,14 @@ approve-chaincode:
 
 
 ipfs-bootstrap:
-	@docker-compose -f ./ipfs/docker-compose.yaml up
+	@docker-compose -f ./ipfs/docker-compose.yaml up -d
 
 ipfs-destroy:
-	@docker-compose -f ./ipfs/docker-compose.yaml down
+	@docker-compose -f ./ipfs/docker-compose.yaml down --volumes
 
 ipfs-cors:
 	@docker exec ipfs_host ipfs config --json API.HTTPHeaders.Access-Control-Allow-Origin '["http://0.0.0.0:5001", "http://localhost:3000", "http://127.0.0.1:5001", "https://webui.ipfs.io"]'
 	@docker exec ipfs_host ipfs config --json API.HTTPHeaders.Access-Control-Allow-Methods '["PUT", "POST"]'
 
 
-#  docker exec ipfs_host ipfs dag get bafyreidxizijhnx3jq7yufeffmgsfzdo5pt765dj4d3ng6fdxu7lkgmoia
+#  docker exec ipfs_host ipfs dag get bafyreicrur7nilot43ds2zso6hiceqbbh3sv3erwjnjdcklwsrbez7onky
